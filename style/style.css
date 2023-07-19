@@ -1,0 +1,181 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Work+Sans:ital,wght@0,400;0,500;0,700;0,800;1,600&display=swap');
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+/* nav section */
+
+.nav-container{
+    width: 1920px;
+    height: 130px;
+    justify-content: space-between;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    
+    
+}
+.logo-container{ 
+    display: flex;
+   align-items: center;
+   margin-left: 200px;
+   
+}
+.logo-container p{
+    margin-left: 20px;
+    color: #0B0223;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.game{
+    color: #FF42A5;
+}
+.nav-items-container{
+    display: flex;
+    margin-right: 200px;
+    align-items: center;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 50px;
+}
+
+.i{
+    color: #F61C0D;
+}
+.t{
+   background-color:#08FFF9, #F00044, #000000 ; 
+}
+/* bannear section 1 */
+.bannear-section{
+    display: flex;
+    width: 1920px;
+    height: 700px;
+}
+.banner-section-1{
+    background-image: url("../images/Group\ 14.png");
+    text-align: center;
+    width: 901px;
+    height: 700px;
+}
+.bannear-section-2{
+    margin-left: 150px;
+}
+.banner-section-1 h3{
+    margin-top: 150px;
+    color: #0B0223;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 600;
+
+}
+.banner-section-1 h1{
+    margin-top: 50px;
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.banner-section-1 p{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+.banner-section-1 button{
+    border-color: #FFF;
+}
+.btn-1{
+    padding: 12px 20px;
+    border-radius: 48px;
+    color:#FFFFFF;
+    background:#FF42A5;
+    
+}
+.btn-2{
+    padding: 12px 20px;
+    border-radius: 48px;
+    color: #FFFFFF;
+    background: #4EC5F7;
+}
+
+/* main section */
+.main-container{
+    align-items: center;
+}
+
+.main-container-1{
+    
+    color: #0B0223;
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.main{
+    background-image: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+.main-container-1 p{
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.img-container{
+
+    margin: 20px;
+    gap: 1000px;
+
+}
+/* bannear section 2 */
+.bannear-section-title{
+    
+}
+.bannear-title{
+    
+}
+.bannear-title h1{
+    font-size: 48px;
+    font-weight: 700;
+}
+.bannear-title p {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.bannear-title-1{
+    color: #F948B2;
+}
+.bannear-img{
+
+}
+.img-1{
+    position: relative;
+    bottom: 100px;
+    margin-left: 50px;
+}
+
+
+
+/* footear section */
+.footear-section{
+    width: 1920px;
+    height: 636px;
+    background: #0B0223;
+}
+.footear-section-img{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+@media screen and (max-width: 425px) {
+    
+}
