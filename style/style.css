@@ -104,14 +104,15 @@
 
 /* main section */
 .main-container{
-    align-items: center;
+
 }
 
 .main-container-1{
     
+    text-align: center;
     color: #0B0223;
-    text-align: right;
-    font-size: 48px;
+    padding: 30px 50px;
+    font-size: 40px;
     font-weight: 700;
 
 }
@@ -122,17 +123,20 @@
 }
 .main-container-1 p{
     color: #534C64;
-    text-align: center;
+
     font-size: 18px;
     font-weight: 400;
     
 }
 .img-container{
-
-    margin: 20px;
-    gap: 1000px;
-
+    display: flex;
+    width: 342px;
+    height: 400px;
+    
+    margin-left: 200px;
+    gap: 30px;
 }
+    
 /* bannear section 2 */
 .bannear-section-title{
     
