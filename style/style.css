@@ -139,10 +139,14 @@
     
 /* bannear section 2 */
 .bannear-section-title{
-    
+    display: flex;
+    margin-bottom: 300px;
+    padding: 200px 300px ;
 }
 .bannear-title{
-    
+    margin-top: 150px;
+    text-align: right;
+    margin-left: 100px;
 }
 .bannear-title h1{
     font-size: 48px;
@@ -159,13 +163,69 @@
 }
 .bannear-img{
 
+    position: relative;
+   align-items: center;
+   margin-left: 50px;
 }
 .img-1{
-    position: relative;
-    bottom: 100px;
-    margin-left: 50px;
+    margin-left: 250px;
+    position: absolute;
 }
-
+.img-2{
+    margin-left: 250px;
+    top: 450px;
+    right: 100px;
+    position: relative;
+}
+/* icon section */
+.icon-section{
+    margin-bottom: 100px;
+   background-color:#FFF;
+   height: 100px;
+   display: grid;
+   grid-template-columns: repeat(5,1fr);
+   padding: 20px 100px;
+   justify-content: center;
+   align-items: center;
+   gap:50px;
+}
+.text-icon{
+    display: flex;
+    align-items: center;
+    background-color:#eef5f5;
+    border-radius: 50px;
+    margin: 10px;
+    height: 40px;
+    padding: 5px;
+    gap: 50px;
+}
+.a:hover{
+    color: red;
+}
+.b:hover{
+    color: red;
+} 
+.c:hover{
+    color: red;
+} 
+.d:hover{
+    color: red;
+} 
+.e:hover{
+    color: red;
+} 
+.f:hover{
+    color: red;
+} 
+.g:hover{
+    color: red;
+} 
+.h:hover{
+    color: red;
+} 
+.j:hover{
+    color: red;
+} 
 
 
 /* footear section */
@@ -175,11 +235,82 @@
     background: #0B0223;
 }
 .footear-section-img{
-    display: flex;
+    display: flex; 
+    padding-top: 100px;
    align-items: center;
    justify-content: center;
 
 }
-@media screen and (max-width: 425px) {
+.footear-section-img h1{
+    color: #FFFFFF;
+    margin-left: 20px;
+    font-size: 45px;
+    font-weight: 700;
     
+}
+.footear-title{
+    color:#FFFFFF;
+
+}
+.footear-title-1{
+    display: flex;
+    margin-left: 600px;
+    gap: 45px;
+    
+    list-style: none;
+}
+.section-icon{
+    display: flex;
+    margin-left: 750px;
+    gap: 50px;
+
+}
+.icon{
+    margin-top: 50px;
+    color: #FFFFFF;
+    font-size: 45px;
+}
+.facebook{
+    
+}
+.footear-title-2{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+   font-weight: 500;
+}
+.footear-title-3{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 600px;
+    gap: 45px;
+    list-style: none;
+}
+.footear-title-4{
+    margin-top: 30px;
+    text-align: center;
+}
+@media screen and (max-width: 425px){
+    .nav-container{
+        flex-direction: column;
+    }
+    .logo-container{
+        flex-direction: column;
+    }
+    .logo-container p{
+        flex-direction: column;
+    }
+    .game{
+        flex-direction: column;
+    }
+    .nav-items-container{
+        flex-direction: column;
+    }
+    .i{
+        flex-direction: column;
+    }
+    .t{
+        flex-direction: column;
+    }
+
+
 }
